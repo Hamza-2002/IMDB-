@@ -1,0 +1,60 @@
+.movie-poster{
+    width: 100%;
+    position: relative;
+}
+.movie-poster img{
+    width: 100%;
+    display: block;
+
+    
+}
+
+.poster-overlay{
+    position: absolute;
+    top:190px;
+    left: 50px;
+}
+.movie-title{
+    font-size: xx-large;
+    font-weight:bolder;
+    text-align: left;
+    color: white;
+    font-style: oblique;
+}
+.movie-release{
+    text-align: left;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+    font-weight: bolder;
+}
+
+.movie-des{
+    width: 800px;
+    font-size: x-large;
+    font-weight: 600;
+    color: antiquewhite;
+    text-align: left;
+}
+.movie-release .vote-av{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.cards{
+    width: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+.cards img{
+    width: 100%;
+    display: block;
+}
+
+.card-upper{
+    position:absolute;
+    top:0;
+    left: 0;
+}

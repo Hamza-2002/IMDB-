@@ -1,0 +1,15 @@
+.moive-list{
+    width: 100%;
+}
+.list-card{
+    text-transform: uppercase;
+}
+
+.card-list {
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 4px 0rem;
+}

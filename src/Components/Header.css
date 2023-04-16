@@ -1,0 +1,26 @@
+.navbar{
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar img{
+    width: 100px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    padding-left:20px ;
+    font-size: x-large;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
+.navbar a:hover{
+    color:brown;
+}
+
+.right-header{
+    padding-top: 10px;
+    margin-left: 20px;
+}

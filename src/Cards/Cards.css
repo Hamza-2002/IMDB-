@@ -1,0 +1,36 @@
+.cards{
+    width: 250px;
+    position: relative;
+    border: 2px solid white;
+    border-radius: 20px;
+    
+    height: 400px;
+    transition: transform 1s ease-in-out;
+    
+
+}
+.cards:hover {
+    transform:scale(1.2);
+    transition: transform 1s ease-in-out;
+}
+.cards img{
+    width: 100%;
+    display: block;
+}
+
+.card-upper{
+    position:absolute;
+    bottom: 10px;
+    left: 0;
+    opacity: 0;
+}
+.card-upper:hover{
+    opacity: 1;
+}
+.card-title{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.card-relase-date{
+    font-weight: 800;
+}
